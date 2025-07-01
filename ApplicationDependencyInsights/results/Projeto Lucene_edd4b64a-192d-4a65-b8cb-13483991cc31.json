@@ -1,0 +1,237 @@
+{
+  "ApplicationId": "edd4b64a-192d-4a65-b8cb-13483991cc31",
+  "RepositoryPath": "C:\\Users\\Paulo\\source\\repos\\ApplicationDependencyInsights\\ApplicationDependencyInsights\\cloned\\Projeto Lucene",
+  "Classes": [
+    {
+      "ClassName": "IndexManager",
+      "Calls": [
+        "BrazilianAnalyzer",
+        "CharArraySet",
+        "IndexWriterConfig",
+        "IndexWriter",
+        "Dictionary\u003Cstring, List\u003Cstring\u003E\u003E",
+        "CsvConfiguration",
+        "StringReader",
+        "CsvReader",
+        "List\u003CDocument\u003E",
+        "Document",
+        "Int32Field",
+        "TextField",
+        "List\u003Cstring\u003E",
+        "Vehicle",
+        "Commerce",
+        "CSVMCSmallDataDTO"
+      ],
+      "CallsHttpApi": false,
+      "CalledUrls": []
+    },
+    {
+      "ClassName": "SearchEngineManager1MFake",
+      "Calls": [],
+      "CallsHttpApi": false,
+      "CalledUrls": []
+    },
+    {
+      "ClassName": "SearchEngineManagerBase",
+      "Calls": [
+        "List\u003Cstring\u003E",
+        "IndexManager",
+        "List\u003CDocument\u003E",
+        "IndexSearcher",
+        "MatchAllDocsQuery",
+        "MultiFieldQueryParser",
+        "BooleanQuery",
+        "FuzzyQuery",
+        "Term",
+        "DocumentComparer",
+        "BooleanClause"
+      ],
+      "CallsHttpApi": false,
+      "CalledUrls": []
+    },
+    {
+      "ClassName": "SearchEngineManagerMCSmallData",
+      "Calls": [],
+      "CallsHttpApi": false,
+      "CalledUrls": []
+    },
+    {
+      "ClassName": "SearchEngineManagerMyData",
+      "Calls": [],
+      "CallsHttpApi": false,
+      "CalledUrls": []
+    },
+    {
+      "ClassName": "Search1MFakeTest",
+      "Calls": [
+        "SearchEngineManager1MFake",
+        "FilterParam"
+      ],
+      "CallsHttpApi": false,
+      "CalledUrls": []
+    },
+    {
+      "ClassName": "SearchMCSmallDataTest",
+      "Calls": [
+        "SearchEngineManagerMCSmallData",
+        "LoaderDTO",
+        "FilterParam"
+      ],
+      "CallsHttpApi": false,
+      "CalledUrls": []
+    },
+    {
+      "ClassName": "SearchMyDataTest",
+      "Calls": [
+        "SearchEngineManagerMyData",
+        "LoaderDTO",
+        "FilterParam"
+      ],
+      "CallsHttpApi": false,
+      "CalledUrls": []
+    },
+    {
+      "ClassName": "DataResource",
+      "Calls": [
+        "global::System.Resources.ResourceManager"
+      ],
+      "CallsHttpApi": false,
+      "CalledUrls": []
+    },
+    {
+      "ClassName": "FilterParam",
+      "Calls": [],
+      "CallsHttpApi": false,
+      "CalledUrls": []
+    },
+    {
+      "ClassName": "LoaderDTO",
+      "Calls": [],
+      "CallsHttpApi": false,
+      "CalledUrls": []
+    },
+    {
+      "ClassName": "LuceneExtensions",
+      "Calls": [
+        "CSVMyDataDTO",
+        "CSVMCSmallDataDTO"
+      ],
+      "CallsHttpApi": false,
+      "CalledUrls": []
+    },
+    {
+      "ClassName": "SearchEngine1MFakeService",
+      "Calls": [
+        "SearchEngineManager1MFake",
+        "LoaderDTO"
+      ],
+      "CallsHttpApi": false,
+      "CalledUrls": []
+    },
+    {
+      "ClassName": "SearchEngineMCSmallDataService",
+      "Calls": [
+        "SearchEngineManagerMCSmallData",
+        "LoaderDTO"
+      ],
+      "CallsHttpApi": false,
+      "CalledUrls": []
+    },
+    {
+      "ClassName": "SearchEngineMyDataService",
+      "Calls": [
+        "SearchEngineManagerMyData",
+        "LoaderDTO"
+      ],
+      "CallsHttpApi": false,
+      "CalledUrls": []
+    },
+    {
+      "ClassName": "DocumentComparer",
+      "Calls": [],
+      "CallsHttpApi": false,
+      "CalledUrls": []
+    },
+    {
+      "ClassName": "ErrorModel",
+      "Calls": [],
+      "CallsHttpApi": false,
+      "CalledUrls": []
+    },
+    {
+      "ClassName": "BaseTest",
+      "Calls": [],
+      "CallsHttpApi": false,
+      "CalledUrls": []
+    },
+    {
+      "ClassName": "CSVMCSmallDataDTO",
+      "Calls": [],
+      "CallsHttpApi": false,
+      "CalledUrls": []
+    },
+    {
+      "ClassName": "CSVMyDataDTO",
+      "Calls": [],
+      "CallsHttpApi": false,
+      "CalledUrls": []
+    },
+    {
+      "ClassName": "SynonymDTO",
+      "Calls": [],
+      "CallsHttpApi": false,
+      "CalledUrls": []
+    }
+  ],
+  "NugetPackages": [
+    {
+      "PackageName": "Bogus",
+      "Version": "34.0.2"
+    },
+    {
+      "PackageName": "CsvHelper",
+      "Version": "30.0.1"
+    },
+    {
+      "PackageName": "Faker.Net",
+      "Version": "2.0.154"
+    },
+    {
+      "PackageName": "Lucene.Net",
+      "Version": "4.8.0-beta00014"
+    },
+    {
+      "PackageName": "Lucene.Net.Analysis.Common",
+      "Version": "4.8.0-beta00014"
+    },
+    {
+      "PackageName": "Lucene.Net.QueryParser",
+      "Version": "4.8.0-beta00014"
+    },
+    {
+      "PackageName": "Microsoft.VisualStudio.Azure.Containers.Tools.Targets",
+      "Version": "1.17.0"
+    },
+    {
+      "PackageName": "Microsoft.NET.Test.Sdk",
+      "Version": "17.1.0"
+    },
+    {
+      "PackageName": "NUnit",
+      "Version": "3.13.3"
+    },
+    {
+      "PackageName": "NUnit3TestAdapter",
+      "Version": "4.2.1"
+    },
+    {
+      "PackageName": "NUnit.Analyzers",
+      "Version": "3.3.0"
+    },
+    {
+      "PackageName": "coverlet.collector",
+      "Version": "3.1.2"
+    }
+  ],
+  "ExternalServices": []
+}
